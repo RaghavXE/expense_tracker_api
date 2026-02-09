@@ -1,6 +1,4 @@
-# expense_tracker_api
-A backend-focused Expense Tracker REST API built with FastAPI, emphasizing clean API design, validation, and business logic. Includes CRUD operations, category-based filtering, and total expense calculation.
-
+<img width="1916" height="958" alt="image" src="https://github.com/user-attachments/assets/826f502f-91c4-4797-b09a-e7036f774a32" />
 
 
 # Expense Tracker API (FastAPI)
@@ -45,12 +43,15 @@ expense-tracker-api/
 ## How to Run the Project
 
 ### 1. Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 2. Start the server
+3. ```bash
 uvicorn main:app --reload
+```
 
-3. Open API documentation
+4. Open API documentation
 Swagger UI: http://127.0.0.1:8000/docs
 ReDoc: http://127.0.0.1:8000/redoc
 
