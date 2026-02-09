@@ -56,12 +56,14 @@ Swagger UI: http://127.0.0.1:8000/docs
 ReDoc: http://127.0.0.1:8000/redoc
 
 ### API Endpoints
-Method	Endpoint	Description
-POST	/expenses	Add a new expense
-GET	/expenses	Get all expenses
-DELETE	/expenses/{expense_id}	Delete expense
-GET	/expenses/total	Get total expenses
-GET	/expenses/categories/{category}	Filter by category
+| Method | Endpoint                          | Description        |
+| ------ | --------------------------------- | ------------------ |
+| POST   | `/expenses`                       | Add a new expense  |
+| GET    | `/expenses`                       | Get all expenses   |
+| DELETE | `/expenses/{expense_id}`          | Delete expense     |
+| GET    | `/expenses/total`                 | Get total expenses |
+| GET    | `/expenses/categories/{category}` | Filter by category |
+
 
 ### Sample Expense JSON
 {
