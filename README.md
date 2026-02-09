@@ -45,17 +45,17 @@ expense-tracker-api/
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
-
-2. Start the server
+```
+### 2. Start the server
 ``` bash
 uvicorn main:app --reload
+```
 
-
-3. Open API documentation
+### 3. Open API documentation
 Swagger UI: http://127.0.0.1:8000/docs
 ReDoc: http://127.0.0.1:8000/redoc
 
-API Endpoints
+### API Endpoints
 Method	Endpoint	Description
 POST	/expenses	Add a new expense
 GET	/expenses	Get all expenses
@@ -63,7 +63,7 @@ DELETE	/expenses/{expense_id}	Delete expense
 GET	/expenses/total	Get total expenses
 GET	/expenses/categories/{category}	Filter by category
 
-Sample Expense JSON
+### Sample Expense JSON
 {
   "id": 1,
   "title": "Groceries",
